@@ -99,6 +99,14 @@ npx playwright install chromium
 
 Ensure your Claude Code has access to the `Task` tool for subagent delegation.
 
+## 🤝 Contributing
+
+Contributions welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
+- 🐛 [Report bugs](https://github.com/hienlh/claude-skill-browser-automation/issues)
+- 💡 [Request features](https://github.com/hienlh/claude-skill-browser-automation/issues)
+- 🔧 [Submit PRs](https://github.com/hienlh/claude-skill-browser-automation/pulls)
+
 ## 📄 License
 
-MIT
+[MIT](LICENSE) - Feel free to use, modify, and distribute!
