@@ -66,8 +66,38 @@ browser-automation/
 
 ## ⚙️ Requirements
 
-- Claude Code with Playwright MCP
-- Task tool for subagent delegation
+### 1. Install Playwright MCP
+
+```bash
+# Add Playwright MCP to Claude Code
+claude mcp add playwright -- npx @anthropic-ai/mcp-playwright@latest
+
+# Verify installation
+claude mcp list
+```
+
+Or add manually to `~/.claude.json`:
+
+```json
+{
+  "mcpServers": {
+    "playwright": {
+      "command": "npx",
+      "args": ["@anthropic-ai/mcp-playwright@latest"]
+    }
+  }
+}
+```
+
+### 2. Install Playwright Browsers
+
+```bash
+npx playwright install chromium
+```
+
+### 3. Task Tool Access
+
+Ensure your Claude Code has access to the `Task` tool for subagent delegation.
 
 ## 📄 License
 
